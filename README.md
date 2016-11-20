@@ -8,8 +8,13 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ```
 chsh -s /bin/zsh
 ```
-3. Install [solarized-dark color scheme](http://ethanschoonover.com/solarized)
-4. Import to terminal, add 'osx-termina.app-color-solarized/Solarized Dark ansi.terminal'
+3. Change theme to 'pygmalion' in .zshrc
+4. Brew install zsh-syntax-highlighting and run below to find path to add to .zshrc
+```
+brew info zsh-syntax-highlighting
+```
+5. Install [solarized-dark color scheme](http://ethanschoonover.com/solarized)
+6. Import to terminal, add 'osx-termina.app-color-solarized/Solarized Dark ansi.terminal'
 
 # Atom Config
 ### Themes
